@@ -29,7 +29,7 @@ fn main() -> Result<()> {
 
     let input_file = BufReader::new(File::open(INPUT_FILE)?);
     let result = time_snippet!(part1(input_file)?);
-    println!("Result = {}", result);
+    println!("Result = {result}");
     //endregion
 
     //region Part 2
